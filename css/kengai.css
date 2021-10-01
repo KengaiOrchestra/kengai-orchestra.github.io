@@ -614,6 +614,7 @@ input[type='checkbox'] {
 
 .basic-2 h4 {
 	letter-spacing: 1px;
+  text-align: center;
 }
 
 
@@ -1224,3 +1225,49 @@ a:hover.back-to-top {
 	/* end of extra pages */
 }
 /* end of min-width 1200px */
+
+.image-kengai{
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 14px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 5px 5px 14px 0px rgba(0,0,0,0.75);
+  box-shadow: 5px 5px 14px 0px rgba(0,0,0,0.75);
+  height: 300px;
+  width: 200px;
+  margin-right: 2.5rem;
+  margin-left: 2.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.image-container{
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.icon{
+  height: 50px;
+  width: 50px;
+  margin-right: 7rem;
+  margin-left: 7rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  }
+
+.maeliconleft{
+  height: 50px;
+  width: 50px;
+  margin-right: 0rem;
+  margin-left: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  }
+
+  .maeliconright{
+    height: 50px;
+    width: 50px;
+    margin-right: 5rem;
+    margin-left: 0rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    }
