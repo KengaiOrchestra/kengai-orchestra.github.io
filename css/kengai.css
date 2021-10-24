@@ -1256,24 +1256,38 @@ a:hover.back-to-top {
   margin-bottom: 1rem;
   }
 
-.maeliconleft{
-  height: 50px;
-  width: 50px;
+.miciconleft{
+  height: 40px;
+  width: 40px;
   margin-right: 0rem;
   margin-left: 5rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  }
-
-  .maeliconright{
-    height: 50px;
-    width: 50px;
-    margin-right: 5rem;
+}
+.saxiconright{
+    height: 70px;
+    width: 70px;
+    margin-right: 0rem;
     margin-left: 0rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    }
-
+}
+.gicon{
+  height: 55px;
+  width: 55px;
+  margin-right: 7rem;
+  margin-left: 6rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.bicon{
+  height: 75px;
+  width: 75px;
+  margin-right: 7rem;
+  margin-left: 6rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 .iframe{
   text-align: center;
 }
