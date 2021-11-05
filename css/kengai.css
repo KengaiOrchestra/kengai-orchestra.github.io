@@ -34,6 +34,7 @@ Colors:
 /*     General Styles     */
 /**************************/
 body,
+
 html {
     width: 100%;
 	height: 100%;
@@ -140,6 +141,8 @@ a:hover {
 
 .bg-gray {
 	background-color: #f7f9fb;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/fond.jpg') center center no-repeat;
+  background-size: cover;
 }
 
 .section-divider {
@@ -1242,6 +1245,18 @@ a:hover.back-to-top {
   margin-bottom: 1rem;
 }
 
+.affiche{
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 14px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 5px 5px 14px 0px rgba(0,0,0,0.75);
+  box-shadow: 5px 5px 14px 0px rgba(0,0,0,0.75);
+  height: 500px;
+  width: 350px;
+  margin-right: 2.5rem;
+  margin-left: 2.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 .image-container{
   padding-bottom: 20px;
   padding-top: 20px;
