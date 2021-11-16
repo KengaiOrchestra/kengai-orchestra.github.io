@@ -1307,3 +1307,46 @@ a:hover.back-to-top {
 .iframe{
   text-align: center;
 }
+
+#diaporama
+{
+max-width:2800px;
+height: 270px;
+overflow: hidden;
+background-color: black;
+}
+#diaporama figure
+{ position: relative;
+width: 450% ;
+margin-left:0;
+animation: 15s sliderleft infinite;
+}
+#diaporama figure img
+{
+width: 290px ;
+float: left;
+margin: 0;
+padding:0;
+border-radius:0;
+}
+#diaporama
+{
+max-width:2800px;
+height: 270px;
+overflow: hidden;
+background-color: black;
+}
+#diaporama figure
+{ position: relative;
+width: 450% ;
+margin-left:0;
+animation: 15s sliderleft infinite;
+}
+#diaporama figure img
+{
+width: 290px ;
+float: left;
+margin: 0;
+padding:0;
+border-radius:0;
+}
