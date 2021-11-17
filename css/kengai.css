@@ -1308,24 +1308,43 @@ a:hover.back-to-top {
   text-align: center;
 }
 
-#diaporama{
-max-width:2800px;
-height: 750px;
-overflow: hidden;
-background-color: none;
+
+SLIDER
+
+div#slider { width: 80%; max-width: 1000px; }
+div#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
 }
 
-#diaporama figure{
-position: relative;
-width: 1000% ;
-margin-left:0;
-animation: 15s sliderleft infinite;
+div#slider figure img { width: 20%; height: auto; float: left; }
+
+div#slider { width: 100%; max-width: 1500px; overflow: hidden }
+
+@keyframes slidy {
+  0% { left: 0%; }
+  20% { left: 0%; }
+  25% { left: -100%; }
+  45% { left: -100%; }
+  50% { left: -200%; }
+  70% { left: -200%; }
+  75% { left: -300%; }
+  95% { left: -300%; }
+  100% { left: -400%; }
 }
 
-#diaporama figure img{
-width: 750px ;
-float: left;
-margin: 0;
-padding:0;
-border-radius:0;
+div#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  animation: 15s slidy infinite;
+}
+
+body{
+  background:#000;
 }
