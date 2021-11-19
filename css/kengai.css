@@ -45,6 +45,11 @@ body, p {
 	font: 400 1rem/1.625rem "Open Sans", sans-serif;
 }
 
+h10 {
+  color: #EB8A16;
+	font: 400 1rem/1.625rem "Open Sans", sans-serif;
+}
+
 h1 {
 	color: #24262a;
 	font-weight: 700;
@@ -1366,7 +1371,7 @@ div#slider figure {
 }
 
 body{
-  background:#000;
+  background:linear-gradient(90deg, rgba(223,169,235,92) 0%, rgba(206,245,238,96) 50%, rgba(223,169,235,92) 100%);
 }
 
 .page-section h2.section-heading {
