@@ -383,6 +383,9 @@ input[type='checkbox'] {
 	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.025);
   top: calc(3% - 3em);
 }
+.navbar-custom {
+  height: 130px;
+}
 
 .navbar .navbar-brand {
 	padding-top: 0.125rem;
@@ -527,10 +530,10 @@ input[type='checkbox'] {
 .header {
 	padding-top: 7rem;
 	padding-bottom: 5.5rem;
-	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/header.JPG') center center no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/header.JPG');
 	background-size: cover;
 	text-align: center;
-  margin-top: 145px;
+  margin-top: 107px;
 }
 
 
@@ -1314,7 +1317,7 @@ SLIDER
 div#slider { width: 80%; max-width: 1000px; }
 div#slider figure {
   position: relative;
-  width: 500%;
+  width: 1200%;
   margin: 0;
   padding: 0;
   font-size: 0;
