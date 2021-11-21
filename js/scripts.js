@@ -30,6 +30,7 @@
         $('.offcanvas-collapse').toggleClass('open')
     })
 
+
     // hover in desktop mode
     function toggleDropdown (e) {
         const _d = $(e.target).closest('.dropdown'),
