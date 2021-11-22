@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body,
 
 h6 a:hover {
@@ -320,7 +321,7 @@ font-size: 25px;
 .slide-one-item.home-slider:hover .owl-nav, .slide-one-item.home-slider:focus .owl-nav, .slide-one-item.home-slider:active .owl-nav {
 opacity: 10;
 visibility: visible;
-}
+
 }
 
 .basic-1 .text-container.fourth{
@@ -577,4 +578,16 @@ font-family: "Poppins"
   height:100%;
   width:100%;
   position:absolute;
+}
+.video-youtube {
+    margin-bottom: 30px;
+}
+iframe {
+   display: block;
+   margin: 0 auto;
+}
+.embedresize {
+  max-width: 560px;
+  margin: auto;
+}
 }
