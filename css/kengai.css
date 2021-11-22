@@ -154,8 +154,8 @@ h11 {
   box-shadow: 5px 5px 14px 0px rgba(0,0,0,0.75);
   height: 300px;
   width: 200px;
-  margin-right: 2.5rem;
-  margin-left: 2.5rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -164,7 +164,7 @@ h11 {
   height: 400px;
   width: 1290px;
   margin-right: 1rem;
-  margin-left: 0rem;
+  margin-left: 2rem;
   margin-top: 0rem;
   margin-bottom: 0rem;
 }
