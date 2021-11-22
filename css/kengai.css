@@ -25,7 +25,7 @@ h11 {
 }
 
 .navbar {
-
+  max-width: 100%;
 	font-weight: 600;
 	font-size: 0.875rem;
 	line-height: 0.875rem;
@@ -48,7 +48,7 @@ h11 {
 .header {
 	padding-top: 7rem;
 	padding-bottom: 5.5rem;
-	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/groupe/header.JPG');
+	background: url('../images/groupe/header.JPG');
 	background-size: cover;
 	text-align: center;
   margin-top: 114px;
@@ -168,6 +168,7 @@ height: 150%;
   margin-left: 3rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  max-width: 100%;
 }
 
 .fond{
@@ -592,10 +593,12 @@ font-family: "Poppins"
   top:0;
   height:100%;
   width:100%;
+  max-width: 100%;
   position:absolute;
 }
 .video-youtube {
     margin-bottom: 30px;
+    max-width: 100%
 }
 iframe {
    display: block;
