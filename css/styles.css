@@ -542,7 +542,16 @@ input[type='checkbox'] {
 	margin-bottom: 3rem;
 }
 
-.basic-1 .time {
+.cards-1 .time {
+	margin-bottom: 0.5rem;
+	color: #00c9db;
+	font-weight: 600;
+	font-size: 0.875rem;
+	line-height: 1.5rem;
+	font-family: "Poppins";
+}
+
+.accordion-1 .time {
 	margin-bottom: 0.5rem;
 	color: #00c9db;
 	font-weight: 600;
