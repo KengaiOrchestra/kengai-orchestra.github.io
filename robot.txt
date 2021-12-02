@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://???/sitemap.xml
+Sitemap: http://www.kengai-orchestra.fr/sitemap.xml
